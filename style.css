@@ -5,6 +5,7 @@
 
 body {
     height: 100vh;
+    background-color: #F2EDED;
 }
 
 .inter-txtstyle {
@@ -31,7 +32,8 @@ body {
     font-size: 16px;
     height: 48px;
 }
-.flex{
+
+.flex {
     display: flex;
     align-items: center;
 }
@@ -78,31 +80,34 @@ nav button {
     margin-top: 37px;
 }
 
-.action{
+.action {
     height: 40%;
     width: 1000px;
     justify-content: space-between;
     margin: 116px auto 100px auto;
 }
 
-.actiontxtDiv h1{
+.actiontxtDiv h1 {
     color: #252432;
     font-size: 42px;
     margin-bottom: 23px;
 }
-.actiontxtDiv p{
+
+.actiontxtDiv p {
     color: hsla(244, 16%, 17%, 0.50);
     margin-bottom: 23px;
 }
-.actiontxtDiv button{
+
+.actiontxtDiv button {
     width: 229px;
 }
-.action img{
+
+.action img {
     height: 100%;
     border-radius: 48px;
 }
 
-.productiveUsers{
+.productiveUsers {
     background-color: hsla(242, 100%, 64%, 0.10);
     height: 40%;
     width: 1000px;
@@ -110,25 +115,81 @@ nav button {
     margin: auto;
     justify-content: center;
 }
-.productiveusersDiv{
+
+.productiveusersDiv {
     width: 856px;
     height: 80%;
     text-align: center;
 }
-.productiveusersDiv h2{
+
+.productiveusersDiv h2 {
     font-size: 30px;
     margin-bottom: 40px;
     color: #252432;
 }
-.dataDiv{
+
+.dataDiv {
     justify-content: space-around;
 }
 
-.smallDiv h1{
+.smallDiv h1 {
     font-size: 75px;
     color: #4E47FF;
 }
-.smallDiv p{
+
+.smallDiv p {
     font-size: 17px;
     color: hsla(0, 0%, 0%, 0.50);
+}
+
+.feedback {
+    height: 55%;
+    width: 1000px;
+    margin: 130px auto;
+}
+.feedback span{
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #252432;
+}
+.cardContainer {
+    width: 100%;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 14px;
+    width: 356px;
+    height: 220px;
+    font-family: 'Times New Roman';
+    background-color: hsla(0, 0%, 100%, 0.50);
+}
+.card img{
+    width: 20px;
+    margin-top: 24px;
+}
+.card img:first-child{
+    margin-left: 24px;
+}
+
+.reviewerDiv img{
+    width: 40px; 
+    border-radius: 50%;
+    margin: 0 8px 0 24px; 
+}
+.card h1{
+    margin: 20px 0 8px 24px;
+}
+.card p{
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+.reviewerTxt h4{
+    color: hsla(244, 16%, 17%, 0.80);
+}
+.reviewerTxt h5{
+    color: hsla(244, 16%, 17%, 0.60);
+    font-family: Arial;
 }
