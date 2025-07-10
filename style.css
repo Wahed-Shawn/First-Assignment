@@ -81,9 +81,8 @@ nav button {
 .action{
     height: 40%;
     width: 1000px;
-    margin-top: 116px;
     justify-content: space-between;
-    margin: 116px auto;
+    margin: 116px auto 100px auto;
 }
 
 .actiontxtDiv h1{
@@ -101,4 +100,35 @@ nav button {
 .action img{
     height: 100%;
     border-radius: 48px;
+}
+
+.productiveUsers{
+    background-color: hsla(242, 100%, 64%, 0.10);
+    height: 40%;
+    width: 1000px;
+    border-radius: 24px;
+    margin: auto;
+    justify-content: center;
+}
+.productiveusersDiv{
+    width: 856px;
+    height: 80%;
+    text-align: center;
+}
+.productiveusersDiv h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #252432;
+}
+.dataDiv{
+    justify-content: space-around;
+}
+
+.smallDiv h1{
+    font-size: 75px;
+    color: #4E47FF;
+}
+.smallDiv p{
+    font-size: 17px;
+    color: hsla(0, 0%, 0%, 0.50);
 }
