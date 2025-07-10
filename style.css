@@ -29,6 +29,11 @@ body {
     border: none;
     font-weight: bold;
     font-size: 16px;
+    height: 48px;
+}
+.flex{
+    display: flex;
+    align-items: center;
 }
 
 .hero {
@@ -42,8 +47,6 @@ body {
 nav {
     height: 100px;
     height: 18%;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     margin: 0 150px;
 }
@@ -56,15 +59,12 @@ nav p {
 nav button {
     font-weight: bold;
     width: 132px;
-    height: 48px;
     font-size: 16px;
 }
 
 .hero main {
     height: 82%;
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
@@ -75,6 +75,30 @@ nav button {
 
 .hero main button {
     width: 174px;
-    height: 48px;
     margin-top: 37px;
+}
+
+.action{
+    height: 40%;
+    width: 1000px;
+    margin-top: 116px;
+    justify-content: space-between;
+    margin: 116px auto;
+}
+
+.actiontxtDiv h1{
+    color: #252432;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+.actiontxtDiv p{
+    color: hsla(244, 16%, 17%, 0.50);
+    margin-bottom: 23px;
+}
+.actiontxtDiv button{
+    width: 229px;
+}
+.action img{
+    height: 100%;
+    border-radius: 48px;
 }
