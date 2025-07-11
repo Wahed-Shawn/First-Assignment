@@ -8,6 +8,7 @@ body {
     background-color: #F2EDED;
 }
 
+/* SHARED SYLES */
 .inter-txtstyle {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -44,6 +45,8 @@ body {
     align-items: center;
 }
 
+
+/* HERO SECTION */
 .hero {
     height: 100%;
     background-image: url(./Assets/Hero-bg.png);
@@ -79,6 +82,7 @@ nav button {
 .hero main h1 {
     font-size: 65px;
     color: #252432;
+    text-align: center;
 }
 
 .hero main button {
@@ -86,6 +90,8 @@ nav button {
     margin-top: 37px;
 }
 
+
+/* ACTION SECTION */
 .action {
     height: 40%;
     width: 1000px;
@@ -122,6 +128,7 @@ nav button {
     justify-content: center;
 }
 
+/* PRODUCTIVE USERS SECTION  */
 .productiveusersDiv {
     width: 856px;
     height: 80%;
@@ -148,6 +155,7 @@ nav button {
     color: hsla(0, 0%, 0%, 0.50);
 }
 
+/* USERS FEEDBACK SECTION */
 .feedback {
     height: 55%;
     width: 1000px;
@@ -231,6 +239,7 @@ nav button {
     color: #000000;
 }
 
+/* FORM SECTION  */
 form {
     width: 45%;
     height: 80%;
@@ -262,6 +271,8 @@ form .btn {
     font-size: 20px;
 }
 
+
+/* FOOTER SECTION  */
 .footer {
     width: 100%;
     height: 350px;
