@@ -31,6 +31,11 @@ body {
     font-weight: bold;
     font-size: 16px;
     height: 48px;
+    transition: all .2s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: #0800ff;
 }
 
 .flex {
