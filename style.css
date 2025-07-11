@@ -33,7 +33,8 @@ body {
     height: 48px;
     transition: all .2s ease-in-out;
 }
-.btn:hover{
+
+.btn:hover {
     transform: scale(1.1);
     background-color: #0800ff;
 }
@@ -296,4 +297,9 @@ form .btn {
 a {
     text-decoration: none;
     color: #8987A1;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-underline-offset: 8px;
 }
