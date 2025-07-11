@@ -37,7 +37,7 @@ body {
 
 .btn:hover {
     transform: scale(1.1);
-    background-color: #0800ff;
+    background-color: hsla(61, 95%, 47%, 0.918);
 }
 
 .flex {
@@ -56,7 +56,6 @@ body {
 }
 
 nav {
-    height: 100px;
     height: 18%;
     justify-content: space-between;
     margin: 0 150px;
@@ -250,9 +249,14 @@ textarea {
     width: 90%;
     padding: 5%;
     border: none;
+    border: 1px solid #D6DDED;
     outline: none;
     border-radius: 10px;
     font-size: 20px;
+}
+input::placeholder , textarea::placeholder{
+    color: hsla(0, 0%, 0%, 0.50);
+    font-weight: normal;
 }
 
 legend {
