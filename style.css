@@ -119,6 +119,7 @@ nav button {
     border-radius: 48px;
 }
 
+/* PRODUCTIVE USERS SECTION  */
 .productiveUsers {
     background-color: hsla(242, 100%, 64%, 0.10);
     height: 40%;
@@ -128,7 +129,6 @@ nav button {
     justify-content: center;
 }
 
-/* PRODUCTIVE USERS SECTION  */
 .productiveusersDiv {
     width: 856px;
     height: 80%;
